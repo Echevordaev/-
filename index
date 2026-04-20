@@ -1,0 +1,222 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Кали Клуб — начни понедельник с энергией</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(135deg, #FFF9F0 0%, #FFEFDF 100%);
+            color: #3E2723;
+            line-height: 1.5;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* карточки и секции */
+        .card {
+            background: white;
+            border-radius: 48px;
+            padding: 32px 28px;
+            margin-bottom: 32px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .hero {
+            background: linear-gradient(145deg, #FFFFFF 0%, #FFF5E8 100%);
+            text-align: center;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 280px;
+            border-radius: 60px;
+            margin: 0 auto 24px;
+            display: block;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+            border: 3px solid #D4AF37;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #C0392B, #F5B041);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #C0392B;
+            margin: 24px 0 16px;
+        }
+
+        .highlight {
+            color: #D4AF37;
+            font-weight: 600;
+        }
+
+        .btn-gold {
+            display: inline-block;
+            background: linear-gradient(95deg, #D4AF37, #F5B041);
+            color: #3E2723;
+            font-weight: 700;
+            padding: 14px 32px;
+            border-radius: 60px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            box-shadow: 0 8px 18px rgba(212, 175, 55, 0.3);
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-gold:hover {
+            transform: scale(1.02);
+            background: linear-gradient(95deg, #F5B041, #D4AF37);
+            box-shadow: 0 12px 24px rgba(212, 175, 55, 0.4);
+        }
+
+        .feature-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin: 32px 0 24px;
+        }
+
+        .feature-item {
+            flex: 1 1 250px;
+            background: #FFF9F0;
+            border-radius: 32px;
+            padding: 24px 20px;
+            text-align: center;
+            border-left: 6px solid #D4AF37;
+        }
+
+        .time-badge {
+            background: #C0392B;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 60px;
+            display: inline-block;
+            font-weight: 600;
+            margin: 16px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            color: #8B6B50;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            .card {
+                padding: 24px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- ГЕРОИНЯ С ФОТО И ГЛАВНЫМ ТЕКСТОМ -->
+    <div class="card hero">
+        <!-- ЗАМЕНИТЕ irina-sport.jpg на ваше реальное фото -->
+        <img src="irina-sport.jpg" alt="Ирина Изотова, ведущая Кали Клуба" class="hero-image" onerror="this.src='https://via.placeholder.com/280x280?text=Фото+Ирины'">
+        
+        <h1>ПроКАЛИ себя по-понедельникам</h1>
+        
+        <p style="font-size: 1.3rem; font-weight: 500; margin: 16px 0;">
+            Нет сил? Не успеваешь делать важное?<br>
+            Планы так и остаются списком на бумаге?
+        </p>
+        <p style="font-size: 1.1rem;">
+            Начни свою неделю на высокой скорости.<br>
+            <strong>Пройди квиз, и узнай, поможет ли тебе Кали-Клуб</strong>
+        </p>
+        
+        <div style="margin: 32px 0 16px;">
+            <a href="https://ваша-ссылка-на-квиз.ru" class="btn-gold">📋 Пройти квиз. Длительность прохождения — 2 минуты</a>
+        </div>
+        <p style="font-size: 0.9rem; color: #7A5A3A;">👇 Ниже — подробности формата</p>
+    </div>
+
+    <!-- ОПИСАНИЕ ПРАКТИКИ (по вашему новому тексту) -->
+    <div class="card">
+        <p style="font-size: 1.2rem; font-weight: 500;">
+            Узнай за 2 минуты — подходит ли тебе кали-медитация, и как одно занятие в понедельник утром повлияет на твою неделю.
+        </p>
+        
+        <p><strong>Кали-медитация</strong> — это активная телесная практика. С помощью нее ты можешь оздоровить тело и психику: убрать застойные процессы, справиться со стрессом и внутренними напряжениями, почиститься эмоционально. Она поднимает энергию и дает заряд для мощного рывка вперед.</p>
+        
+        <div class="time-badge">⏰ Каждый понедельник с 6:15 до 7:30 МСК — живая групповая практика онлайн, из любой точки мира</div>
+        
+        <div class="feature-grid">
+            <div class="feature-item">
+                <span style="font-size: 2rem;">✨</span>
+                <h3 style="margin: 12px 0 8px;">Энергия утра</h3>
+                <p>Заряжает на всю неделю, повышает тонус и продуктивность.</p>
+            </div>
+            <div class="feature-item">
+                <span style="font-size: 2rem;">💪</span>
+                <h3 style="margin: 12px 0 8px;">Оздоровление тела</h3>
+                <p>Убирает застои в тазу, улучшает лимфоток и гибкость.</p>
+            </div>
+            <div class="feature-item">
+                <span style="font-size: 2rem;">🧠</span>
+                <h3 style="margin: 12px 0 8px;">Эмоциональный баланс</h3>
+                <p>Помогает справляться со стрессом и внутренним напряжением.</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 24px;">
+            <a href="https://ваша-ссылка-на-квиз.ru" class="btn-gold">🔥 Пройти квиз за 2 минуты</a>
+        </div>
+    </div>
+
+    <!-- ДОПОЛНИТЕЛЬНЫЙ БЛОК ПРО ФОРМАТ (опционально) -->
+    <div class="card">
+        <h2>🎁 Что даёт Кали Клуб</h2>
+        <ul style="margin-left: 24px; line-height: 1.8;">
+            <li>✔️ Живые онлайн-практики каждый понедельник в 6:15 МСК</li>
+            <li>✔️ Доступ в закрытый Telegram-чат с поддержкой и комьюнити</li>
+            <li>✔️ Записи практик для повторения в удобное время</li>
+            <li>✔️ Скидки на кали-марафоны и специальные мероприятия</li>
+        </ul>
+        <div style="margin-top: 24px; background: #FFF5E6; padding: 20px; border-radius: 32px; text-align: center;">
+            <p style="font-weight: 600;">🌟 Тарифы:</p>
+            <p>Разовое занятие + неделя в чате — 999 ₽<br>
+            1 месяц (4 практики + чат) — 3 333 ₽<br>
+            2 месяца (8 практик + чат) — 5 555 ₽<br>
+            Годовой клуб — 22 222 ₽</p>
+        </div>
+    </div>
+
+    <footer>
+        © Кали Клуб — утренняя энергия и телесные практики.<br>
+        Сайт сделан на GitHub Pages.
+    </footer>
+</div>
+</body>
+</html>
